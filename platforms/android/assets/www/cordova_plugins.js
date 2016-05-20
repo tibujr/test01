@@ -484,8 +484,8 @@ module.exports.metadata =
     "cordova-plugin-statusbar": "2.1.3",
     "cordova-plugin-vibration": "2.1.1",
     "cordova-plugin-whitelist": "1.2.2",
-    "cordova-plugin-android-support-v4": "21.0.1",
-    "pushbots-cordova-plugin": "1.3.6"
+    "pushbots-cordova-plugin": "1.3.6",
+    "cordova-plugin-android-support-v4": "21.0.1"
 };
 // BOTTOM OF METADATA
 });
