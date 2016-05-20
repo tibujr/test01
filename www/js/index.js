@@ -48,3 +48,11 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+
+
+//credencial: AIzaSyDa_yJ52aXq7TBwpcp-Lxvew72N0horp6c
+//numero projecto: 484433023834
+
+//api pushboot: 573f53354a9efab77c8b456b
+//clave pushboot: dbf6d302c858ce28193ce65a7347e09b
