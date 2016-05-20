@@ -35,6 +35,18 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
         window.plugins.PushbotsPlugin.initialize("573f53354a9efab77c8b456b", {"android":{"sender_id":"484433023834"}});
+        //window.plugins.PushbotsPlugin.on("registered", function(token){ alert("Registration Id:" + token); Pushbots.updateAlias("Test"); });
+        
+        //var elemento = document.getElementById('boton');
+
+        var informacion='Nombre del dispositivo ' + device.name + '<br />' + 
+                        'Version de Cordova: ' + device.cordova + '<br />' + 
+                        'Sistema operativo: ' + device.platform + '<br />' +
+                        'Version: ' + device.version + '<br />'+
+                        'Identificador unico universal: ' + device.uuid + '<br />';
+        //elemento.innerHTML = informacion;
+
+        alert(informacion);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
