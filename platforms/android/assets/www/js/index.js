@@ -35,6 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
         window.plugins.PushbotsPlugin.initialize("573f53354a9efab77c8b456b", {"android":{"sender_id":"484433023834"}});
+        window.plugins.PushbotsPlugin.on("registered", function(token){ console.log("Registration Id:" + token); Pushbots.updateAlias("Test"); });
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
